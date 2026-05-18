@@ -40,3 +40,4 @@ This is an evolving repository. Projects may be updated, refactored, or replaced
 - Explore APIs
 - Add data/ML mini projects
 - Improve code structure over time
+- Add basic UI using open source python libraries
