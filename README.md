@@ -8,14 +8,15 @@ This repository is not static — I add new projects, improve existing ones, and
 
 ## Projects Included
 
-- Rock Paper Scissors Game
-- Currency_converter
-- Dice roll game
-- QR Code Generator
-- Number analyser
-- Number guessing game
-- date and time 
--  More coming soon...
+- rock paper scissors game
+- currency converter
+- dice roll game
+- QR code generator
+- number analyser
+- number guessing game
+- date and time
+- slot machine
+- More coming soon...
 
 ---
 
