@@ -1,6 +1,6 @@
 # Python Lab
 
-A collection of my mini Python projects while learning and experimenting.
+A collection of mini Python projects while learning and experimenting.
 
 This repository is not static — I add new projects, improve existing ones, and explore different Python concepts.
 
@@ -16,6 +16,7 @@ This repository is not static — I add new projects, improve existing ones, and
 - number guessing game
 - date and time
 - slot machine
+-
 - More coming soon...
 
 ---
