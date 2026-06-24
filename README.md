@@ -2,9 +2,7 @@
 
 A collection of mini Python projects while learning and experimenting.
 
-This repository is not static — I add new projects, improve existing ones, and explore different Python concepts.
-
----
+This repository is not static — I add new projects, improve existing ones
 
 ## Projects Included
 
