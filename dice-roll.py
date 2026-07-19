@@ -36,7 +36,7 @@ while True:
         player_turnscore += player_turn
         print(f"Turn score: {player_turnscore}")
         
-        roll_hold = input("Roll again? (y/n): ").lower()
+        roll_hold = input("Roll again (yes or no)? (y/n): ").lower()
         if roll_hold == 'n':
             total_score += player_turnscore
             print(f"Total score: {total_score}")
