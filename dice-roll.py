@@ -29,19 +29,19 @@ while True:
         print(f"You rolled: {player_turn}")
         
         if player_turn == 1:
-            print("Rolled a 1! Turn over, score reset!")
+            print("Rolled a 1, score reset!")
             player_turnscore = 0
-            break  # end turn immediately if 1 is rolled
+            break  
         
         player_turnscore += player_turn
         print(f"Turn score: {player_turnscore}")
         
-        roll_hold = input("Roll again or hold? (r/h): ").lower()
-        if roll_hold == 'h':
+        roll_hold = input("Roll again (yes or no)? (y/n): ").lower()
+        if roll_hold == 'n':
             total_score += player_turnscore
             print(f"Total score: {total_score}")
             break
-        elif roll_hold != 'r':
+        elif roll_hold != 'y':
             print("Invalid input! Turn ended.")
             break
 
