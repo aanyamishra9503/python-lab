@@ -1,8 +1,6 @@
 import math
-
-print("=" * 40)
-print("        NUMBER ANALYZER")
-print("=" * 40)
+print("Welcome to the Number Analyser!")
+print("This program will analyze the properties of a given number.")
 
 num = int(input("Enter a number: "))
 
@@ -75,3 +73,5 @@ for item in properties:
     print("✔", item)
 
 print("=" * 40)
+
+print("Thank you for using the Number Analyser!")
