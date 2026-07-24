@@ -64,13 +64,31 @@ if total == temp:
 if str(abs(num)) == str(abs(num))[::-1]:
     properties.append("Palindrome Number")
 
+def isPerfectSquare(x):
+    s = int(x ** 0.5)
+    return s * s == x
+
+if num >= 0:
+    if isPerfectSquare(5 * num * num + 4) or isPerfectSquare(5 * num * num - 4):
+        properties.append("Fibonacci Number")
+
+
+if num != 0:
+    factors = []
+    for i in range(1, abs(num) + 1):
+        if num % i == 0:
+            factors.append(i)
+
+    properties.append(f"Factors: {factors}")
+
+
 # Display Results
 print("\n" + "=" * 40)
 print("Analysis Result")
 print("=" * 40)
 
 for item in properties:
-    print("✔", item)
+    print(item)
 
 print("=" * 40)
 
