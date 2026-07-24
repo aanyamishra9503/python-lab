@@ -84,9 +84,9 @@ while True:
 1. Multiplication Table
 2. Square, Cube & Square Root
 3. Factors
-4Sum of Digits
-5.Reverse Number
-6.Exit
+4. Sum of Digits
+5. Reverse Number
+6. Exit
 """)
 
     choice = input("Enter your choice (1-6): ")
