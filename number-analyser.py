@@ -68,21 +68,6 @@ def isPerfectSquare(x):
     s = int(x ** 0.5)
     return s * s == x
 
-if num >= 0:
-    if isPerfectSquare(5 * num * num + 4) or isPerfectSquare(5 * num * num - 4):
-        properties.append("Fibonacci Number")
-
-
-if num != 0:
-    factors = []
-    for i in range(1, abs(num) + 1):
-        if num % i == 0:
-            factors.append(i)
-
-    properties.append(f"Factors: {factors}")
-
-
-# Display Results
 print("\n" + "=" * 40)
 print("Analysis Result")
 print("=" * 40)
@@ -91,5 +76,63 @@ for item in properties:
     print(item)
 
 print("=" * 40)
+
+print("\nWould you like to see any additional information?")
+
+while True:
+    print("""
+1. Multiplication Table
+2. Square, Cube & Square Root
+3. Factors
+4Sum of Digits
+5.Reverse Number
+6.Exit
+""")
+
+    choice = input("Enter your choice (1-6): ")
+
+    if choice == "1":
+        print(f"\nMultiplication Table of {num}")
+        for i in range(1, 11):
+            print(f"{num} x {i} = {num * i}")
+
+    elif choice == "2":
+        print(f"\nSquare : {num ** 2}")
+        print(f"Cube   : {num ** 3}")
+
+        if num >= 0:
+            print(f"Square Root : {round(num ** 0.5, 2)}")
+        else:
+            print("Square Root : Not a real number")
+
+    elif choice == "3":
+        factors = []
+        for i in range(1, abs(num) + 1):
+            if num % i == 0:
+                factors.append(i)
+        print("Factors:", factors)
+
+    elif choice == "4":
+        digit_sum = 0
+
+        for digit in str(abs(num)):
+             digit_sum += int(digit)
+
+        print("Sum of Digits:", digit_sum)
+
+    elif choice == "5":
+        reverse = str(abs(num))[::-1]
+        if num < 0:
+            print("Reverse:", "-" + reverse)
+        else:
+            print("Reverse:", reverse)
+
+    elif choice == "6":
+        print("\nThank you for using Number Analyzer!")
+        break
+
+    else:
+        print("Invalid choice! Please try again.")
+
 
 print("Thank you for using the Number Analyser!")
