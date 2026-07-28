@@ -4,10 +4,34 @@ pets=["dog", "cat", "hamster", "parrot", "rabbit", "fish", "turtle", "lizard", "
 homes=["apartment", "house", "condo", "cabin", "villa", "mansion", "studio", "loft", "bungalow", "farmhouse"]
 talents=["singing", "dancing", "painting", "writing", "acting", "cooking", "coding", "photography", "gardening", "sports"]
 
+events = [
+"You won a lottery!",
+"You got promoted!",
+"You lost your wallet.",
+"You adopted another pet.",
+"You started a business.",
+"You moved to another country.",
+"You became famous.",
+"You got a scholarship."
+]
 print("\n YOUR LIFE SIMULATION \n")
-print("💼Job:",random.choice(jobs))
+education=["High School","Diploma","Bachelor's","Master's","PhD"]
+
+'''print("💼Job:",random.choice(jobs))
 print("🐶Pet:",random.choice(pets))
 print("🏠Home:",random.choice(homes))
 print("🎨Talent:",random.choice(talents))
+print("🎓 Education:",random.choice(education))
+print("🎲 Event:",random.choice(events))'''
+
+
+for age in range(18,81):
+    print(f"\nAge: {age}")
+    print("💼Job:",random.choice(jobs))
+    print("🐶Pet:",random.choice(pets))
+    print("🏠Home:",random.choice(homes))
+    print("🎨Talent:",random.choice(talents))
+    print("🎓 Education:",random.choice(education))
+    print("🎲 Event:",random.choice(events))
 
 
