@@ -10,7 +10,7 @@ This repository is not static — I add new projects, improve existing ones
 - currency converter
 - dice roll game
 - QR code generator
-- number analyser
+- number analyser(‼️)
 - number guessing game
 - date and time
 - slot machine
