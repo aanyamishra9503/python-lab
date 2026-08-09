@@ -1,6 +1,6 @@
 import random
 jobs= ["engineer", "doctor", "teacher", "artist", "scientist", "chef", "pilot", "nurse", "lawyer", "writer", "musician"]
-pets=["dog", "cat", "hamster", "parrot", "rabbit", "fish", "turtle", "lizard", "snake", "ferret"]
+pets=["dog", "cat", "hamster", "parrot", "rabbit", "fish", "turtle", "lizard", "snake", "horse"]
 homes=["apartment", "house", "condo", "cabin", "villa", "mansion", "studio", "loft", "bungalow", "farmhouse"]
 talents=["singing", "dancing", "painting", "writing", "acting", "cooking", "coding", "photography", "gardening", "sports"]
 
